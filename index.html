@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas</title>
+    <link rel="icon" href="globe-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><strong class="display-6">Atlas</strong></a>
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <button data-country="United States of America"
+                                    class="nav-link nav-btn active">USA</button>
+                            </li>
+                            <li class="nav-item">
+                                <button data-country="Israel" class="nav-link nav-btn">ISRAEL</button>
+                            </li>
+                            <li class="nav-item">
+                                <button data-country="United Kingdom" class="nav-link nav-btn">UK</button>
+                            </li>
+                            <li class="nav-item">
+                                <button data-country="French Republic" class="nav-link nav-btn">FRANCE</button>
+                            </li>
+                            <li class="nav-item">
+                                <button data-country="Thailand" class="nav-link nav-btn">THAILAND</button>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input id="searchInput" class="form-control me-2" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button id="searchButton" class="btn btn-outline-secondary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="container">
+
+
+        </div>
+        <!-- <div class="map" id="map">
+
+    </div> -->
+
+    </main>
+    <footer class="bg-secondary d-flex align-items-center justify-content-center">
+        <h3 class="display-6 text-center">created by Esty Froyvirt</h3>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>

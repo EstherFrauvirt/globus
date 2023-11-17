@@ -1,0 +1,37 @@
+.text {
+    margin-left: 27px;
+}
+
+.map {
+    width: 50vw;
+    height: 40vh;
+}
+
+footer {
+    height: 100px;
+    color: white;
+    margin-top: 40px;
+}
+
+main {
+    min-height: 700px;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+
+.nav-link {
+
+    margin-left: 20px !important;
+}
+.border-item{
+    text-decoration: none;
+}
+.border-item:hover{
+    
+    color:lightblue
+}
+.country-title:hover{
+    color:rgb(156, 156, 156)
+}
